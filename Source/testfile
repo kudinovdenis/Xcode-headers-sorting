@@ -1,0 +1,41 @@
+// comment1
+#import "a"
+#import "c"
+// comment2
+//comment3
+#import "b"
+#import "ab"
+//
+////
+///
+#import "a_nocomment"
+
+
+// comment1
+#import "a"
+#import "c"
+// comment2
+//comment3
+#import "b"
+#import "ab"
+//
+////
+///
+#import "a_nocomment"
+
+
+
+
+// comment1
+#import "a"
+#import "c"
+// comment2
+//comment3
+#import "b"
+#import "ab"
+//
+////
+///
+#import "a_nocomment"
+
+
