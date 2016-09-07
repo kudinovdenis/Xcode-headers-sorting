@@ -51,3 +51,6 @@ Before Sorting:
 Delimiter symbols to group headers (see Example): 
 - \n (new line)
 - // (comments)
+
+#Known issues
+Shortcut is not active on the first file right after XCode launched
