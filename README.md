@@ -1,13 +1,14 @@
 #Tool for sorting XCode Haders imports alphabetically 
-(works with any XCode including XCode 8)
+This tool **_is not_** a plugin for **Alcatraz** which is not fully available in **XCode 8**. 
+So this tool will work with **_any XCode_** including **XCode 8**
 
 #How to install
 Run `./install.sh` in terminal
 
 #How to use
-1. Select headers
-2. Right-click on the text in XCode editor
-3. Choose "Sort Alphabetically"
+1. **Select** headers
+2. **Right-click** on the text in XCode editor
+3. Choose **"Sort Alphabetically"**
 
 ###Or
 
@@ -49,8 +50,8 @@ Before Sorting:
 
 # Additional info
 Delimiter symbols to group headers (see Example): 
-- \n (new line)
-- // (comments)
+- **\n** (new line)
+- **//** (comments)
 
 #Known issues
-Shortcut is not active on the first file right after XCode launched
+Shortcut is not active on the first file right after XCode _launched_
