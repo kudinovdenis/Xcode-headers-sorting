@@ -1,9 +1,5 @@
 #!/bin/sh
 
-# killing the XCode
-echo "killing the XCode ..."
-killall Xcode
-
 # copying automator workflow
 echo "\ncopying Service ..."
 cp -aR ./Service/Sort\ Alphabetically.workflow ~/Library/Services/
@@ -19,4 +15,11 @@ file=~/Library/Preferences/com.apple.dt.Xcode.plist
 
 $plistbuddy -c "Add :NSUserKeyEquivalents\":Sort Alphabetically\" string \"^\$s\"" $file
 
-echo "\nDone!"
+while true; do
+    read -p "XCode need to be restarted after install. Close now? (y)es or (n)o: " yn
+    case $yn in
+        [Yy]* ) killall Xcode; exit;;
+        [Nn]* ) exit;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
