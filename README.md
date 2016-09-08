@@ -3,7 +3,11 @@ This tool **_is not_** a plugin for **Alcatraz** which is not fully available in
 So this tool will work with **_any XCode_** including **XCode 8**
 
 #How to install
-Run `./install.sh` in terminal
+```shell
+$ git clone https://github.com/kudinovdenis/Xcode-headers-sorting.git
+$ cd Xcode-headers-sorting
+$ ./install.sh
+```
 
 #How to use
 1. **Select** headers
