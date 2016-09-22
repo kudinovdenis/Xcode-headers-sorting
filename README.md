@@ -1,6 +1,6 @@
 #Tool for sorting XCode Haders imports alphabetically 
-This tool **_is not_** a plugin for **Alcatraz** which is not fully available in **XCode 8**. 
-So this tool will work with **_any XCode_** including **XCode 8**
+This tool will work with **_any XCode_** including **XCode 8**:
+this **_is not_** a plugin for **Alcatraz** which is not fully available in **XCode 8**. 
 
 #How to install
 ```shell
