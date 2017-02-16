@@ -1,27 +1,30 @@
-#Tool for sorting XCode Haders imports alphabetically 
+# Tool for sorting Xcode import headers alphabetically
+
 This tool will work with **_any XCode_** including **XCode 8**:
 this **_is not_** a plugin for **Alcatraz** which is not fully available in **XCode 8**. 
 
-#How to install
+## How to install
+
 ```shell
 $ git clone https://github.com/kudinovdenis/Xcode-headers-sorting.git
 $ cd Xcode-headers-sorting
 $ ./install.sh
 ```
 
-#How to use
+## How to use
+
 1. **Select** headers
 2. **Right-click** on the text in XCode editor
 3. Choose **"Sort Alphabetically"**
 
-###Or
+### Or
 
 Just <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>S</kbd>
 
-
-#Example
+## Example
 
 Before Sorting:
+
 ```objective-c
 // headers group 1
 #import "A_header.h"
@@ -52,10 +55,13 @@ Before Sorting:
 #import "C3_header.h"
 ```
 
-# Additional info
+## Additional info
+
 Delimiter symbols to group headers (see Example): 
+
 - **\n** (new line)
 - **//** (comments)
 
-#Known issues
-Shortcut is not active on the first file right after XCode _launched_
+## Known issues
+
+Shortcut is not active on the first file right after Xcode is _launched_.
