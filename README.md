@@ -1,7 +1,7 @@
 # Tool for sorting Xcode import headers alphabetically
 
-This tool will work with **_any XCode_** including **XCode 8**:
-this **_is not_** a plugin for **Alcatraz** which is not fully available in **XCode 8**. 
+This tool will work with **_any Xcode_** including **Xcode 8**:
+this **_is not_** a plugin for **Alcatraz** which is not fully available in **Xcode 8**. 
 
 ## How to install
 
@@ -14,7 +14,7 @@ $ ./install.sh
 ## How to use
 
 1. **Select** headers
-2. **Right-click** on the text in XCode editor
+2. **Right-click** on the text in Xcode editor
 3. Choose **"Sort Alphabetically"**
 
 ### Or
